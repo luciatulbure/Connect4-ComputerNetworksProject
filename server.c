@@ -17,7 +17,7 @@
 #define latime 6
 #define lungime 7
 
-
+int ceva2=0;
 /* codul de eroare returnat de anumite apeluri */
 extern int errno;
 typedef struct thData{

@@ -21,6 +21,7 @@ extern int errno;
 /* portul de conectare la server*/
 int port;
 int verif=1;
+int ceva=0;
 void afisare_scor(char a, char b){
 if(a>b){printf("\nScorul este : %c - %c pentru jucatorul cu culoarea rosie\n",a,b);}
 		    else if(a==b){printf("\nEgalitate  %c - %c\n",a,b);}
